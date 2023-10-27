@@ -1,0 +1,59 @@
+body{
+    background-color: #f7e6fa90;
+}
+
+/* загальний контейнер */
+.magic-ball-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+}
+
+/* зображення магічної кулі */
+#magic-ball {
+    width: 100%;
+    border-radius: 50%;
+} 
+
+/* поле для питання */
+#question-input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #efc8f690;
+    background-color: #b385d965;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #302828;
+}
+
+::placeholder{
+    color: #454040ac;
+}
+
+/* кнопка */
+#answer-button {
+    background-color: #8800ff;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* відповідь */
+#answer {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #302828;
+}
+
+/* прихований блок */
+.hidden {
+    visibility: hidden;
+    height: auto;
+}
